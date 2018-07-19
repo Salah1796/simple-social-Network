@@ -1,0 +1,216 @@
+
+*
+{
+	transition: 1s;
+		
+}
+.container
+{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	height:800;
+}
+
+
+
+body
+{
+	
+	font-style: normal;
+	text-align: center;
+	height: 3000px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+perspective: 600;
+        overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 100%;
+}
+
+
+
+.firsthed
+{
+	
+	background-color: #303030;
+	height: 60px;
+	color: white;
+	font-style: normal;
+	
+	width: 100%;
+   
+	
+      
+}
+.firsthed .nav
+{
+	
+	display: flex;
+	justify-content:space-between;
+	
+}
+
+.firsthed .nav p
+{
+	
+	font-style: normal;
+          font-size: 15px;
+	font-weight: 500;
+	  
+  
+	
+	}
+.firsthed .nav p span:hover
+{
+	
+	transform: scale(1.01,1);
+}
+.fa-phone
+{
+	color: #2aa7e9;
+	
+	
+}
+.firsthed  span
+{
+	
+margin-right: 10px;	
+margin-left: 10px;	
+	
+font-size: 14px;
+	
+}
+
+.fa-envelope-o
+{
+	color: #2aa7e9;
+}
+
+
+.firsthed  a
+{
+	color:white;
+	text-decoration: none;
+	
+	font-family: cursive;
+	
+	
+	
+}
+
+.firsthed .em a:hover
+{
+	text-decoration: underline;
+	color: aquamarine;
+	
+	
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube
+{
+	
+	color: white;
+          font-size: 16px;
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	transition: 0.5s ease-in-out
+	
+}
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover,.GET:hover
+{
+	cursor: pointer;
+	background-color: #27a6e8
+	
+}
+
+
+.firstnav
+{
+	
+	
+	background-color:#ffffff;
+         height:60px;
+          perspective: 800px;
+			
+}
+.firstnav  .container
+{
+	
+	
+	display: flex;
+	justify-content: space-between;
+	perspective: 700px;
+
+	
+}
+
+.firstnav .container h1
+{
+	
+	color:#888888;
+	
+          font-style: normal;
+	font-weight: 600;
+	perspective: 700px;
+	transition: 1s;
+	margin-top: 10px;
+	font-size: 29
+ 
+}
+
+.firstnav .container h1 a
+{
+	text-decoration: none;
+	color:#888888;
+          transition: 1s;
+	
+}
+.firstnav .container h1 a:hover
+{
+           transform: scale(1.03,1);
+	cursor: pointer;
+	color: black;
+	
+}
+.cl
+{
+	
+	clear: both;
+
+}
+.firstnav ul 
+{
+
+	
+	list-style: none;
+
+	
+
+	
+}
+ ul li
+{
+	
+	 
+}
+.firstnav ul li:hover
+{
+	
+	
+}
+.firstnav ul li:after
+{
+	content:" |";
+	
+	
+}
+.firstnav ul .lastli:after
+{
+	content:" ";
+	
+	
+}
+
+

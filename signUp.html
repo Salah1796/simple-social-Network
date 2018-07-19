@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="css2/style.css">
+  <style>
+     
+
+      a{
+          
+          text-decoration: none;
+          color: black;
+           
+      }
+      a h1{
+          
+           font-family:cursive  ;
+          margin-top:10px;; 
+          font-size: 20px;
+      }
+      .register-button{
+                   font-family:cursive  ;
+          font-size: 20px;
+      }
+      
+      
+  </style>
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <h1 class="register-title">Welcome</h1>
+
+    <form class="register" action="signUp.php " method="post" enctype="multipart/form-data">
+    
+        <input type="text"  name="name"class="register-input" placeholder="Name" required="">
+    <input type="email"  name="em" class="register-input" placeholder="Email" required="">
+    <input type="password" name="pass" class="register-input" placeholder="Password" required="">
+    <input name="sign" type="submit" value="signUp" class="register-button">
+   
+     <a href="login.html"  class="register-button" ><h1>Login</h1></a>
+
+
+   
+    
+
+
+  </form>
+
+  <div class="about">
+
+    <p class="about-author">
+        &copy; 2018 <a href="#" target="_blank">Salah</a> -
+      <a href="#" target="_blank">MIT License</a><br>
+      Original PSD by <a href="#" target="_blank">Ionut Zamfir</a>
+    </p>
+  </div>
+</body>
+</html>
